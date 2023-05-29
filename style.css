@@ -1,0 +1,56 @@
+.container {
+  width: 50%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 14% 14% 14% 14% 14% 14% 14%;
+  grid-template-rows: 15% 15% 15% 15% 15% 15% 15%;
+
+  height: auto;
+}
+.container div {
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-weight: bold;
+}
+.containerthird {
+  padding-left: 7rem;
+
+  display: flex;
+  gap: 1rem;
+  margin-top: 3rem;
+  width: 50%;
+  margin-left: 15rem;
+}
+.btn button {
+  background-color: green;
+  color: white;
+  padding: 0.7rem;
+  border-radius: 5px;
+  border: none;
+}
+.inputcss input {
+  height: 2rem;
+  text-align: center;
+}
+.first {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+.first select {
+  height: 2rem;
+  width: 10rem;
+  text-align: center;
+}
+
+.firstContainer {
+  display: flex;
+
+  width: 50%;
+  margin: auto;
+}
